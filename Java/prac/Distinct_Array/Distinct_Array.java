@@ -63,6 +63,6 @@ class Distinct_Array
     public static void main(String args[])
     {
         Distinct_Array obj= new Distinct_Array();
- //       obj.disp();
+        obj.disp();
     }
 }
