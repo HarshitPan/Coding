@@ -1,3 +1,4 @@
+import os
 def fun(a,b,n):
     t=[]
     if n>0:
@@ -34,4 +35,4 @@ while(i!=0):
     i//=10
 c.append(a)
 fun(c,b,len(b)-1)
-print("\nAll Possible Combination From Given Number Are -:",c)
+print("\nAll Possible Combination From Given Number Are -:",len(c))
